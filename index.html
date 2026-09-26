@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta
+      name="description"
+      content="Bookmark Sorter is a Chrome extension for organizing bookmarks with rules, a preview before changes, and Undo. Free and Pro editions are in development."
+    />
+    <title>Bookmark Sorter | Preview, sort, and undo</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icon32.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="#top" aria-label="Bookmark Sorter home">
+          <img src="assets/icon128.png" width="40" height="40" alt="" />
+          <span>Bookmark Sorter</span>
+        </a>
+        <nav aria-label="Main navigation">
+          <a href="#how-it-works">How it works</a>
+          <a href="#editions">Free and Pro</a>
+          <a href="#privacy">Privacy</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero wrap" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="status-mark" aria-hidden="true"></span> Chrome
+            extension in development
+          </p>
+          <h1 id="hero-title">Make sense of your bookmarks.</h1>
+          <p class="hero-lede">
+            Create rules for the sites and pages you save. See exactly what will
+            move before you sort, and use Undo when you need to put things back.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#how-it-works"
+              >See how it works <span aria-hidden="true">↗</span></a
+            >
+            <span class="availability"
+              >Public download and checkout are not open yet.</span
+            >
+          </div>
+        </div>
+        <div class="hero-art">
+          <img
+            src="assets/bookmark-sorter-cosmic-master.png"
+            width="1254"
+            height="1254"
+            alt="Bookmark Sorter app icon"
+          />
+        </div>
+      </section>
+      <section class="band" id="how-it-works" aria-labelledby="work-title">
+        <div class="wrap">
+          <div class="section-heading">
+            <h2 id="work-title">Decide what moves.</h2>
+            <p>
+              Bookmark Sorter keeps the review step in your hands. Live sorting
+              is optional and starts off by default.
+            </p>
+          </div>
+          <div class="step-grid">
+            <article class="step">
+              <span class="step-number">01</span>
+              <h3>Write a rule</h3>
+              <p>
+                Match a bookmark by its domain, URL, or title and choose an
+                exact destination folder.
+              </p>
+            </article>
+            <article class="step">
+              <span class="step-number">02</span>
+              <h3>Preview the moves</h3>
+              <p>
+                Review the planned changes before applying them. If a bookmark
+                changes after preview, the sorter skips it.
+              </p>
+            </article>
+            <article class="step">
+              <span class="step-number">03</span>
+              <h3>Sort with a way back</h3>
+              <p>
+                Apply the plan when you are ready. An Undo journal helps reverse
+                supported moves and cleanup changes.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="wrap editions-section"
+        id="editions"
+        aria-labelledby="editions-title"
+      >
+        <div class="section-heading">
+          <p class="section-kicker">Choose what you need</p>
+          <h2 id="editions-title">
+            Start Free. Add Pro when it earns its place.
+          </h2>
+          <p>
+            Both editions are being prepared for public release. The prices and
+            features below describe the planned launch offer.
+          </p>
+        </div>
+        <div class="tier-grid">
+          <article class="tier">
+            <div class="tier-top">
+              <p class="tier-name">Free</p>
+              <p class="tier-price">$0</p>
+              <p class="tier-summary">
+                For manual cleanup and a few live rules.
+              </p>
+            </div>
+            <ul>
+              <li>Unlimited basic rules for manual Preview &amp; Sort</li>
+              <li>Up to 3 selected rules for optional live sorting</li>
+              <li>Exact-URL duplicate scanning and review</li>
+              <li>Bookmark backup export, rule import/export, and Undo</li>
+            </ul>
+          </article>
+          <article class="tier tier-pro">
+            <div class="tier-top">
+              <p class="tier-name">
+                Pro <span class="star" aria-hidden="true">★</span>
+              </p>
+              <p class="tier-price">$9.99 <small>one time</small></p>
+              <p class="tier-summary">
+                For larger libraries and more flexible rules.
+              </p>
+            </div>
+            <ul>
+              <li>Everything in Free</li>
+              <li>Unlimited selected live sorting rules</li>
+              <li>Regex and multi-condition rule matching</li>
+              <li>Reviewable bulk duplicate cleanup</li>
+              <li>Up to 3 active installations per license</li>
+            </ul>
+            <p class="tier-footnote">
+              Lifetime Pro is planned as a single purchase, with no
+              subscription.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section
+        class="band privacy-band"
+        id="privacy"
+        aria-labelledby="privacy-title"
+      >
+        <div class="wrap privacy-inner">
+          <div>
+            <h2 id="privacy-title">
+              Bookmark processing stays in your browser.
+            </h2>
+          </div>
+          <div class="privacy-copy">
+            <p>
+              Bookmark titles, URLs, folders, rules, previews, and Undo history
+              are processed locally. The extension asks for bookmark and local
+              storage permissions. It does not use advertising or analytics.
+            </p>
+            <p>
+              Free use does not contact the licensing service. Pro activation
+              will send the license key and random installation identifiers for
+              license checks, never bookmark contents.
+            </p>
+            <p class="quiet">
+              A full privacy policy will be available before public sales.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="wrap contact-section"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <div>
+          <p class="section-kicker">Questions about Bookmark Sorter?</p>
+          <h2 id="contact-title">Get in touch.</h2>
+        </div>
+        <a class="contact-link" href="mailto:adamjohnflores@gmail.com"
+          >adamjohnflores@gmail.com <span aria-hidden="true">↗</span></a
+        >
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <span>© 2026 Bookmark Sorter</span>
+        <span>Chrome extension · Public release in preparation</span>
+      </div>
+    </footer>
+  </body>
+</html>
