@@ -44,6 +44,8 @@ a:focus-visible { outline: 3px solid var(--cyan); outline-offset: 5px; border-ra
 h1, h2, h3, p { margin-top: 0; }
 h1, h2 { line-height: 1.07; letter-spacing: -.048em; }
 h1 { max-width: 10ch; margin-bottom: 1.5rem; font-size: clamp(3rem, 7.5vw, 5.45rem); font-weight: 780; }
+.hero h1 { max-width: none; font-size: clamp(2.25rem, 5vw, 4.25rem); line-height: 1.12; letter-spacing: -.035em; }
+.hero h1 span { display: block; }
 h2 { font-size: clamp(2.15rem, 4.4vw, 3.25rem); font-weight: 760; }
 h3 { font-size: 1.3rem; letter-spacing: -.02em; }
 .hero-lede { max-width: 58ch; color: var(--muted); font-size: clamp(1.08rem, 1.6vw, 1.24rem); line-height: 1.7; }
@@ -99,6 +101,7 @@ h3 { font-size: 1.3rem; letter-spacing: -.02em; }
   .site-header nav { width: 100%; justify-content: space-between; gap: .5rem; }
   .site-header nav a { font-size: .88rem; }
   .hero { grid-template-columns: 1fr; min-height: 0; padding-block: 4.4rem; gap: 3rem; }
+  .hero h1 { font-size: clamp(2rem, 8.5vw, 3.5rem); }
   .hero-art { justify-content: flex-start; }
   .hero-art img { width: min(65vw, 290px); }
   .step-grid { grid-template-columns: 1fr; }
