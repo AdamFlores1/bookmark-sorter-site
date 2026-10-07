@@ -93,8 +93,23 @@ h3 { font-size: 1.3rem; letter-spacing: -.02em; }
 .contact-section h2 { margin-bottom: 0; }
 .contact-link { color: var(--cyan); font-size: clamp(1.05rem, 2vw, 1.35rem); font-weight: 680; text-underline-offset: .25em; overflow-wrap: anywhere; }
 .contact-link span { margin-left: .2rem; }
+.contact-policy-links { display: flex; flex-wrap: wrap; flex-basis: 100%; gap: .8rem 1.5rem; }
+.contact-policy-links a { color: var(--cyan); text-underline-offset: .2em; }
 .site-footer { padding-block: 2rem; }
 .footer-inner { display: flex; justify-content: space-between; gap: 1rem; color: var(--faint); font-size: .86rem; }
+.footer-inner { flex-wrap: wrap; }
+.footer-inner nav { display: flex; flex-wrap: wrap; gap: 1rem; }
+.review-banner { padding: .8rem 1.25rem; background: #322346; color: #f6eaff; text-align: center; font-size: .9rem; }
+.policy { max-width: 800px; padding-block: 4rem; }
+.policy h1 { max-width: none; font-size: clamp(2.5rem, 7vw, 4rem); }
+.policy h2 { margin-top: 2.5rem; font-size: 1.65rem; letter-spacing: -.025em; line-height: 1.2; }
+.policy p, .policy li { color: var(--muted); }
+.policy a { color: var(--cyan); text-underline-offset: .2em; }
+.policy li { margin-block: .6rem; }
+.policy .button { color: white; }
+.policy address { font-style: normal; overflow-wrap: anywhere; }
+.tier .button { margin-top: 1.5rem; }
+.notice { padding: 1rem 1.25rem; border: 1px solid var(--line); border-radius: 10px; background: var(--surface-2); }
 
 @media (max-width: 760px) {
   .header-inner { align-items: flex-start; flex-direction: column; justify-content: center; padding-block: 1rem; }
